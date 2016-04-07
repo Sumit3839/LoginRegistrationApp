@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/morphling"
+    tools:context="com.example.sumit.loginregistrationapp.Main3Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar2"
+        android:layout_centerHorizontal="true"
+        android:text="Sign Up"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar2"
+        android:layout_margin="10dp"
+        android:gravity="right"
+        android:inputType="text"
+        android:hint="Name.." />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e"
+        android:layout_margin="10dp"
+        android:gravity="right"
+        android:inputType="text"
+        android:hint="Username.." />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e1"
+        android:layout_margin="10dp"
+        android:gravity="right"
+        android:inputType="text"
+        android:hint="Email.." />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/e2"
+        android:layout_alignStart="@+id/e2"
+        android:layout_centerVertical="true"
+        android:gravity="right"
+        android:inputType="number"
+        android:hint="Phone.." />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e3"
+        android:layout_margin="10dp"
+        android:gravity="right"
+        android:inputType="textPassword"
+        android:hint="Password..">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e4"
+        android:layout_margin="10dp"
+        android:gravity="right"
+        android:inputType="textPassword"
+        android:hint="Confirm Password.." />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Register" />
+
+
+</RelativeLayout>
